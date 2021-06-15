@@ -1,0 +1,37 @@
+html {
+  background-color: #489CF7;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__container {
+    height: auto;
+    width: 500px;
+    background-color: #0B0F2F;
+    border-radius: 5%;
+    box-shadow: 2px 2px 5px #397AC2;
+    padding: 2rem;
+
+    &__header {
+      color: #ffff;
+      font-size: 2rem;
+      font-weight: 400;
+    }
+
+    &__action {
+      padding: 2rem;
+      border-radius: 5%;
+      margin-top: 2rem;
+      background-color: #1E223F;
+      color: #ffff;
+      font-size: 1.5rem;
+      text-align: center;
+      font-weight: 400;
+      margin-bottom: 1rem;
+    }
+  }
+
+}
