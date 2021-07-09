@@ -10,7 +10,6 @@ const Toggle: React.FC<ToggleProps> = ({
     defaultChecked=false,
     label
 }) => {
-    
     return <input type="checkbox" name="" id="" />
 }
 
