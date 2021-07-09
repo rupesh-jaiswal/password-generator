@@ -1,5 +1,5 @@
 import React from 'react';
-
+// change1 after wrong commit  
 type ToggleProps = {
     onToggle: (value: boolean) => void;
     defaultChecked?: boolean;
